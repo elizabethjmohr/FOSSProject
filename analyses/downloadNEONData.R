@@ -18,10 +18,11 @@ do <- data.frame(
   site = SITE
 )
 
-monthPath <- paste0("./data/", YEARMONTH)
+monthPath <- paste0("data/", YEARMONTH)
 if(!dir.exists(monthPath)){
   dir.create(monthPath)
 }
 
 save(do,
-     file = paste0("./data/", YEARMONTH, "/", SITE, ".rds"))
+     file = paste0("data/", YEARMONTH, "/", SITE, ".rds"))
+  
