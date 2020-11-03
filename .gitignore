@@ -1,0 +1,4 @@
+\.snakemake
+\data
+\plots
+.DS_Store
